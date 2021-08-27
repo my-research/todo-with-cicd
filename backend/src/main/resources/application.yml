@@ -1,5 +1,5 @@
 user:
-  host-ip: 127.0.0.1
+  host-ip: 127.0.0.1:3000
 
 spring:
   h2:
