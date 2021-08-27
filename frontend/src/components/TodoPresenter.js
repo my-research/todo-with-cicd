@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import TodoTextBox from "./TodoTextBox";
+import TodoInput from "./TodoInput";
 import TodoList from './TodoList';
 
 export const Background = styled.div`
@@ -55,7 +55,7 @@ const TodoPresenter = ({ todos, addAndSetTodos, deleteAndSetTodos }) => {
       <Container>
         <Title>평범한 Todo List</Title>
         <Subtitle>근데 이제, cicd pipeline 을 곁들인</Subtitle>
-        <TodoTextBox addAndSetTodos={addAndSetTodos} />
+        <TodoInput addAndSetTodos={addAndSetTodos} />
         <TodoList todos={todos} deleteAndSetTodos={deleteAndSetTodos} />
       </Container>
     </Background>

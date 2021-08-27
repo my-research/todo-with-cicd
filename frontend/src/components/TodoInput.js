@@ -36,7 +36,7 @@ const Button = styled.button`
   }
 `;
 
-const TodoTextBox = ({ addAndSetTodos }) => {
+const TodoInput = ({ addAndSetTodos }) => {
 
   const [text, setText] = useState("");
 
@@ -71,4 +71,4 @@ const TodoTextBox = ({ addAndSetTodos }) => {
   )
 }
 
-export default TodoTextBox
+export default TodoInput

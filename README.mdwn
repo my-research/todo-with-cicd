@@ -11,18 +11,17 @@
 
 - **프론트엔드**
   - 컴포넌트
-    - TodoContainer
+    - App
+    - TodoInput
+    - TodoItem
+    - TodoList
     - TodoPresenter
-      - TodoItem, TodoItemStyles.js
-      - DeleteButton, DeleteButtonStyles.js
-      - InputForm
-        - TodoTextBox
-        - AddButton
   - 통신 로직 구현하기
+    - SERVER.js
+    - service.js
 - **백엔드**
   - API 구현
     - Todo 조회 API
     - Todo 추가 API
     - Todo 삭제 API
   - CORS Filter 구현
-  - Front Back 연결 및 테스트

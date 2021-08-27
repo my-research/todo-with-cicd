@@ -8,7 +8,7 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
+  margin: 14px;
 `;
 
 const List = styled.li`
