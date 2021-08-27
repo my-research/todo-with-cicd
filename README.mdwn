@@ -1,0 +1,8 @@
+# Todo List, 근데 이제 근데 이제 CICD를 곁들인
+
+- React
+- Spring Boot
+- Nginx
+- Docker
+- Jenkins
+- EC2
