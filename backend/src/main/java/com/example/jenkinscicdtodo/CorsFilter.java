@@ -14,9 +14,6 @@ import java.io.IOException;
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class CorsFilter implements Filter {
 
-    @Value("${user.host-ip}")
-    private String HOST_IP;
-
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 
