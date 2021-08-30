@@ -53,7 +53,7 @@ const TodoPresenter = ({ todos, addAndSetTodos, deleteAndSetTodos }) => {
   return (
     <Background>
       <Container>
-        <Title>평범한 Todo List</Title>
+        <Title>평범한 Todo List 2</Title>
         <Subtitle>근데 이제, cicd pipeline 을 곁들인</Subtitle>
         <TodoInput addAndSetTodos={addAndSetTodos} />
         <TodoList todos={todos} deleteAndSetTodos={deleteAndSetTodos} />
