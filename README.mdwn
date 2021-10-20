@@ -26,6 +26,6 @@
     - Todo 삭제 API
   - CORS Filter 구현
 
-***
+---
 
 Jenkins CI 연동 완료
